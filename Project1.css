@@ -43,12 +43,85 @@ h2 {
 .mainimages {
 	margin-left:auto;
 	margin-right:auto;
+	display:flex;
+	justify-content: space-evenly;
 	
 }
 .art1 {
-	display: flex;
-	float-right: 30;
+	text-align:center;
+	font-family: 'Exo', sans-serif;
+	font-size: 30px;
+}
+.art2 {
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+	font-size: 30px;
 }
 .par1 {
-	font-family: 'Teko', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 40px;
+	display:flex;
+	text-align: center;
+	padding: 30px;
+	justify-content: space-evenly;
+	color: #414141;
+}
+.halfmarkers {
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	justify-content: space-evenly;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+}
+.halfmarkers2 {
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	justify-content: space-evenly;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+}
+.buy {
+	justify-content: space-evenly;
+	display: flex;
+}
+
+.contact {
+	justify-content: space-evenly;
+	display:block;
+}
+.p1 {
+	justify-content: space-evenly;
+	display:flex;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+}
+.p2 {
+	justify-content: space-evenly;
+	display:flex;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+}
+.p3 {
+	justify-content: space-evenly;
+	display:flex;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+}
+.purple {
+	background-color: #B2A4C6;
+	display:block;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+}
+
+.imput [type=text]{
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
