@@ -118,10 +118,3 @@ h2 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 30px;
 }
-
-.imput [type=text]{
-	width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
